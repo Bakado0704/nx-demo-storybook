@@ -1,0 +1,10 @@
+{
+  "name": "nx-story-demo-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/nx-story-demo-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["nx-story-demo"],
+  "// targets": "to see all targets run: nx show project nx-story-demo-e2e --web",
+  "targets": {}
+}
