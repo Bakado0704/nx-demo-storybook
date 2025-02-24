@@ -1,8 +1,11 @@
 {
-  "name": "@nx-story-demo/source",
+  "name": "@app1/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev-app1": "npx nx serve app1",
+    "dev-app2": "npx nx serve app2"
+  },
   "private": true,
   "dependencies": {
     "next": "~15.1.4",
