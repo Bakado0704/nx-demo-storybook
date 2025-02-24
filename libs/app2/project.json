@@ -1,0 +1,8 @@
+{
+  "name": "app2-lib",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/app2/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {}
+}

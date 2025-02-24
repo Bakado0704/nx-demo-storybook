@@ -1,0 +1,61 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  > .fv {
+    position: relative;
+    width: 100vw;
+    height: 40rem;
+    z-index: 1;
+
+    > .image {
+      position: absolute;
+      width: 100vw !important;
+      height: 40rem !important;
+      top: 50% !important;
+      left: 50% !important;
+      transform: translate(calc(-50% - (100vw - 1220px) / 2), -50%);
+      z-index: 2;
+      object-fit: cover;
+    }
+
+    > .bg {
+      position: absolute;
+      width: 100vw;
+      height: 40rem;
+      top: 50%;
+      left: 50%;
+      background-color: var(--b1);
+      transform: translate(calc(-50% - (100vw - 1220px) / 2), -50%);
+      opacity: 0.3;
+      z-index: 3;
+    }
+
+    > .fvText {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(calc(-50% - (100vw - 1220px) / 2), -50%);
+      font-size: 4rem;
+      font-weight: 600;
+      line-height: 1.5;
+      z-index: 4;
+      color: var(--w1);
+    }
+  }
+
+  > .title {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  > .articleList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+}

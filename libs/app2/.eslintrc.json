@@ -1,0 +1,20 @@
+{
+  "extends": ["plugin:@nx/react", "../../.eslintrc.json"],
+  "ignorePatterns": ["!**/*", ".next/**/*"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "rules": {}
+    }
+  ],
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "project": [
+          "./libs/app2/tsconfig.json",
+          "./libs/app2/tsconfig.lib.json"
+        ]
+      }
+    }
+  }
+}

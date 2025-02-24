@@ -15,8 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-story-demo/common": ["common/src/index.ts"],
-      "@nx-story-demo/common/server": ["common/src/server.ts"]
+      "@app1/*": ["./libs/app1/src/*"],
+      "@app2/*": ["./libs/app2/src/*"],
+      "@common/*": ["./libs/common/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]

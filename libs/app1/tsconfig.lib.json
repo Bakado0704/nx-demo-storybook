@@ -8,7 +8,9 @@
       "@nx/react/typings/image.d.ts",
       "next",
       "@nx/next/typings/image.d.ts"
-    ]
+    ],
+    "composite": true,
+    "declaration": true
   },
   "exclude": [
     "jest.config.ts",
@@ -21,5 +23,14 @@
     "src/**/*.spec.jsx",
     "src/**/*.test.jsx"
   ],
-  "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.ts", "src/**/*.tsx"]
+  "include": [
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.scss",
+    "../../libs/common/src/**/*.ts",
+    "../../libs/common/src/**/*.tsx",
+    "../../libs/common/src/**/*.scss"
+  ]
 }

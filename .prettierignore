@@ -3,3 +3,11 @@
 /coverage
 /.nx/cache
 /.nx/workspace-data
+*.md
+*.env
+apps/**/env/*.env.*
+**/*.svg
+**/*.png
+**/*.ico
+**/*.gitkeep
+public/**
